@@ -1,5 +1,5 @@
 // Constants
-def platformToolsGitURL = "https://github.com/Accenture/adop-platform-management.git"
+def platformToolsGitURL = "https://github.com/franlopezyuste/adop-platform-management.git"
 
 def adopPlatformManagementVersion = (binding.variables.containsKey("ADOP_PLATFORM_MANAGEMENT_VERSION")) ? "${ADOP_PLATFORM_MANAGEMENT_VERSION}".toString() : '';
 def adopPlatformManagementVersionRef = '${ADOP_PLATFORM_MANAGEMENT_VERSION}';

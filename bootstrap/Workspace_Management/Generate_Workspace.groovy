@@ -1,5 +1,5 @@
 // Constants
-def platformToolsGitURL = "https://github.com/Accenture/adop-platform-management.git"
+def platformToolsGitURL = "https://github.com/franlopezyuste/adop-platform-management.git"
 
 def workspaceManagementFolderName= "/Workspace_Management"
 def workspaceManagementFolder = folder(workspaceManagementFolderName) { displayName('Workspace Management') }
