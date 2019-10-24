@@ -19,7 +19,7 @@ generateExampleWorkspaceJob.with{
         stringParam("workspaceAdmin","Admin","")
         stringParam("workspaceDeveloper","Developer","")
         stringParam("workspaceViewer","Viewer","")
-        stringParam("cartridgeURL","https://github.com/Accenture/adop-cartridge-java.git","")
+        stringParam("cartridgeURL","https://github.com/franlopezyuste/adop-cartridge-java.git","")
         stringParam("scmProvider",gitlabRootUrl + " - ssh (adop-gitlab-ssh)","")
     }
     properties {
