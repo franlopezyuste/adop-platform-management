@@ -4,8 +4,8 @@ def platformToolsGitURL = "https://github.com/franlopezyuste/adop-platform-manag
 def workspaceManagementFolderName= "/Workspace_Management"
 def workspaceManagementFolder = folder(workspaceManagementFolderName) { displayName('Workspace Management') }
 
-def adopPlatformManagementVersion = (binding.variables.containsKey("ADOP_PLATFORM_MANAGEMENT_VERSION")) ? "${ADOP_PLATFORM_MANAGEMENT_VERSION}".toString() : '';
-def adopPlatformManagementVersionRef = '${ADOP_PLATFORM_MANAGEMENT_VERSION}';
+def adopPlatformManagementVersion = ''; //(binding.variables.containsKey("ADOP_PLATFORM_MANAGEMENT_VERSION")) ? "${ADOP_PLATFORM_MANAGEMENT_VERSION}".toString() : '';
+def adopPlatformManagementVersionRef = ''; //'${ADOP_PLATFORM_MANAGEMENT_VERSION}';
 
 if (!adopPlatformManagementVersion.matches("[a-fA-F0-9]{8,40}")) {
   out.println("[WARN] ADOP_PLATFORM_MANAGEMENT_VERSION is set to '" + adopPlatformManagementVersion + "' which is not a valid hash - defaulting to '*/master'")

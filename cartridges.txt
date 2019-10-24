@@ -1,4 +1,4 @@
-https://github.com/Accenture/adop-cartridge-java.git
+https://github.com/franlopezyuste/adop-cartridge-java.git
 https://github.com/Accenture/adop-cartridge-cartridge-dev.git
 https://github.com/Accenture/adop-cartridge-chef.git
 https://github.com/Accenture/adop-cartridge-docker.git
